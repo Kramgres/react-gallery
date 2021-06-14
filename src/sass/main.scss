@@ -1,0 +1,19 @@
+@import "variables";
+
+.container{
+  max-width: 1320px;
+  margin: 64px auto;
+}
+
+.linkBack{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: fit-content;
+  background-color: $color-white;
+  border: 1px solid $color-gray-light;
+  border-radius: 4px;
+  padding: 8px 16px;
+  color: $color-primary;
+}

@@ -1,0 +1,27 @@
+.album{
+  margin-top: 8px;
+
+  &Title{
+    margin: 0;
+    margin-bottom: 16px;
+  }
+
+  &Images{
+    padding: 0;
+    padding-left: 24px;
+  }
+
+  &Image{
+    cursor: pointer;
+    width: fit-content;
+    margin-bottom: 4px;
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+    
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
